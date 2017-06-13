@@ -186,7 +186,7 @@ def testDownstreamProject (name) {
                     break;
 
                 case 'economicmodeling/containers':
-                    sh 'make -B -C test/ || echo failed' // FIXME
+                    sh 'make -B -C test/'
                     break;
 
                 case 'BlackEdder/ggplotd':
