@@ -461,6 +461,7 @@ def call() { timeout(time: 1, unit: 'HOURS') {
         "nomad-software/dunit",
         "repeatedly/mustache-d",
         "s-ludwig/taggedalgebraic",
+        "etcimon/memutils",
         "libmir/mir",
         // sorted by test time fast to slow (to minimize pending queue length)
         "dlang-community/dfmt", // 11s
